@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Full-bleed square with the football inside the centre safe zone, so Android can crop it to a circle. -->
+  <rect width="64" height="64" fill="#166534"/>
+  <g transform="rotate(-35 32 32) translate(32 32) scale(.8) translate(-32 -32)">
+    <ellipse cx="32" cy="32" rx="27" ry="15" fill="#a16207"/>
+    <g stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none">
+      <path d="M22 32h20M26 27v10M32 27v10M38 27v10"/>
+      <path d="M12 32q4-9 8-10M12 32q4 9 8 10M52 32q-4-9-8-10M52 32q-4 9-8 10"/>
+    </g>
+  </g>
+</svg>
